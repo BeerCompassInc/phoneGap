@@ -12,9 +12,9 @@
              beerCompassInc
     </author>
 
-    <platform name="ios"/>
+    <!-- <platform name="ios"/> -->
     <platform name="android"/>
-    <platform name="winphone"/>
+    <!-- <platform name="winphone"/> -->
     <preference name="phonegap-version" value="cli-6.3.0" />
     <preference name="orientation" value="portrait" />
     <preference name="fullscreen" value="false" />
@@ -23,21 +23,21 @@
     <preference name="disallowOverscroll" value="true" />
 
     <!-- These settings for iOS -->
-    <preference name="target-device" value="universal"/>
+    <!-- <preference name="target-device" value="universal"/>
     <preference name="deployment-target" value="7.0"/>
     <preference name="exit-on-suspend" value="false"/>
     <preference name="detect-data-types" value="true"/>
     <preference name="prerendered-icon" value="false"/>
     <preference name="StatusBarOverlaysWebView" value="false" />
     <preference name="ios-statusbarstyle" value="default"/>
-    <preference name="StatusBarStyle" value="default" />
+    <preference name="StatusBarStyle" value="default" /> -->
 
     <!-- These settings for Android. Additional android setting can be found at cordova website. http://cordova.apache.org - look in the docs, then in the android configurations.  -->
     <preference name="android-minSdkVersion" value="23" />
     <preference name="android-installLocation" value="auto" />
 
     <!-- iOS requires 16 DIFFERENT icons to uspport all current devices -->
-     <platform name="ios">
+     <!-- <platform name="ios">
         <icon src="res/icon/ios/icon.png" width="57" height="57"/>
         <icon src="res/icon/ios/icon@2x.png" width="114" height="114"/>
         <icon src="res/icon/ios/icon-40.png" width="40" height="40"/>
@@ -54,11 +54,11 @@
         <icon src="res/icon/ios/icon-small.png" width="29" height="29"/>
         <icon src="res/icon/ios/icon-small@2x.png" width="58" height="58"/>
         <icon src="res/icon/ios/icon-small@3x.png" width="87" height="87"/>
-      </platform>
+      </platform> -->
 
       <!-- for android you only need to define icons for each of the 6 DIFFERENT screen densities. -->
        <platform name="android">
-        <!-- <icon src="res/icon/android/drawable-ldpi-icon.png" qualifier="ldpi"/> -->
+        <icon src="res/icon/android/drawable-ldpi-icon.png" qualifier="ldpi"/>
         <icon src="res/icon/android/drawable-mdpi-icon.png" qualifier="mdpi"/>
         <icon src="res/icon/android/drawable-hdpi-icon.png" qualifier="hdpi"/>
         <icon src="res/icon/android/drawable-xhdpi-icon.png" qualifier="xhdpi"/>
@@ -67,7 +67,7 @@
       </platform>
 
       <!-- iOS settings for the splash-screen that displays while the app is loading. These need to be defined for all the screen sizes. Depending on if your app, you may need portrait and landscape orientations. Below we have only the portrait orientations-->
-       <platform name="ios">
+       <!-- <platform name="ios">
         <splash src="res/screen/ios/Default~iphone.png" width="320" height="480"/>
         <splash src="res/screen/ios/Default@2x~iphone.png" width="640" height="960"/>
         <splash src="res/screen/ios/Default-Portrait~ipad.png" width="768" height="1024"/>
@@ -75,11 +75,11 @@
         <splash src="res/screen/ios/Default-736h.png" width="2208" height="1242"/>
         <splash src="res/screen/ios/Default-667h.png" width="750" height="1334"/>
         <splash src="res/screen/ios/Default-568h@2x~iphone.png" width="640" height="1136"/>
-      </platform>
+      </platform> -->
 
       <!-- android settings for the splash screens. Again need DIFFERENT settings for each of the 6 screen densities. The -port or -land before each screen density allows us to modify if we want portrait or landscape mode -->
       <platform name="android">
-        <!-- <splash src="res/screen/android/drawable-port-ldpi-screen" qualifier="ldpi"/> -->
+        <splash src="res/screen/android/drawable-port-ldpi-screen" qualifier="ldpi"/>
         <splash src="res/screen/android/drawable-port-mdpi-screen.png" qualifier="mdpi"/>
         <splash src="res/screen/android/drawable-port-hdpi-screen.png" qualifier="hdpi"/>
         <splash src="res/screen/android/drawable-port-xhdpi-screen.png" qualifier="xhdpi"/>
@@ -115,9 +115,9 @@
       <platform name="android">
         <allow-intent href="market:*"/>
       </platform>
-      <platform name="ios">
+      <!-- <platform name="ios">
         <allow-intent href="itms:*"/>
         <allow-intent href="itms-apps:*"/>
-      </platform>
+      </platform> -->
 
 </widget>
