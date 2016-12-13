@@ -21,6 +21,8 @@
     <preference name="webviewbounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="disallowOverscroll" value="true" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="10000" />
 
     <!-- These settings for iOS -->
     <!-- <preference name="target-device" value="universal"/>
@@ -33,7 +35,7 @@
     <preference name="StatusBarStyle" value="default" /> -->
 
     <!-- These settings for Android. Additional android setting can be found at cordova website. http://cordova.apache.org - look in the docs, then in the android configurations.  -->
-    <preference name="android-minSdkVersion" value="23" />
+    <preference name="android-minSdkVersion" value="24" />
     <preference name="android-installLocation" value="auto" />
 
     <!-- iOS requires 16 DIFFERENT icons to uspport all current devices -->
