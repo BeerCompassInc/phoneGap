@@ -2,8 +2,8 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "beercompassreact_io.github.beercompassinc"
-    versionCode = "7"
-    version     = "1.0.6" >
+    versionCode = "8"
+    version     = "1.0.7" >
    <name>beerCompass</name>
     <description>
             Track your drunken adventures
@@ -23,6 +23,8 @@
     <preference name="disallowOverscroll" value="true" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="10000" />
+    <preference name="keepRunning" value="true" />
+
 
     <!-- These settings for iOS -->
     <!-- <preference name="target-device" value="universal"/>
