@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
-    id          = "beercompassreact/io.github.beercompassinc"
+    id          = "beerCompass"
     versionCode = "1"
-    version     = "1.0.0" >
+    version     = "1.0.1" >
    <name>beerCompass</name>
     <description>
             Track your drunken adventures
@@ -17,7 +17,7 @@
     <!-- <platform name="winphone"/> -->
     <preference name="phonegap-version" value="cli-6.4.0" />
     <preference name="orientation" value="portrait" />
-    <preference name="fullscreen" value="false" />
+    <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="disallowOverscroll" value="true" />
@@ -81,12 +81,12 @@
 
       <!-- android settings for the splash screens. Again need DIFFERENT settings for each of the 6 screen densities. The -port or -land before each screen density allows us to modify if we want portrait or landscape mode -->
       <platform name="android">
-        <splash src="res/screen/android/splash-port-ldpi-screen.png" density="port-ldpi"/>
-        <splash src="res/screen/android/splash-port-mdpi-screen.png" density="port-mdpi"/>
-        <splash src="res/screen/android/splash-port-hdpi-screen.png" density="port-hdpi"/>
-        <splash src="res/screen/android/splash-port-xhdpi-screen.png" density="port-xhdpi"/>
-        <splash src="res/screen/android/splash-port-xxhdpi-screen.png" density="port-xxhdpi"/>
-        <splash src="res/screen/android/splash-port-xxxhdpi-screen.png" density="port-xxxhdpi"/>
+        <splash src="res/screen/android/splash-port-ldpi-screen.png" qualifier="port-ldpi"/>
+        <splash src="res/screen/android/splash-port-mdpi-screen.png" qualifier="port-mdpi"/>
+        <splash src="res/screen/android/splash-port-hdpi-screen.png" qualifier="port-hdpi"/>
+        <splash src="res/screen/android/splash-port-xhdpi-screen.png" qualifier="port-xhdpi"/>
+        <splash src="res/screen/android/splash-port-xxhdpi-screen.png" qualifier="port-xxhdpi"/>
+        <splash src="res/screen/android/splash-port-xxxhdpi-screen.png" qualifier="port-xxxhdpi"/>
       </platform>
 
       <!-- How to set default app permissions on android and windows phone. Permissions are now set automatically by plugins that you add to your app -->
