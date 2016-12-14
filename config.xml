@@ -35,7 +35,7 @@
     <preference name="StatusBarStyle" value="default" /> -->
 
     <!-- These settings for Android. Additional android setting can be found at cordova website. http://cordova.apache.org - look in the docs, then in the android configurations.  -->
-    <preference name="android-minSdkVersion" value="23" />
+    <preference name="android-minSdkVersion" value="20" />
     <preference name="android-installLocation" value="auto" />
 
     <!-- iOS requires 16 DIFFERENT icons to uspport all current devices -->
